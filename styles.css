@@ -1,0 +1,16 @@
+.web-image {
+    display: block;
+}
+
+.mobile-image {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .web-image {
+        display: none !important;
+    }
+    .mobile-image {
+        display: block;
+    }
+}
